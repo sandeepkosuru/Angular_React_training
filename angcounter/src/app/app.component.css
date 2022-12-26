@@ -1,0 +1,12 @@
+.first{
+    font-size: 10em;
+    color: green;
+}
+.second{
+    font-size: 5em;
+    color: blue;
+}
+.last{
+    font-size: 2em;
+    color: red;
+}

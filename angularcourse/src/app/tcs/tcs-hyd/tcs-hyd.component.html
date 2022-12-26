@@ -1,0 +1,14 @@
+<div>
+    <input type="text" placeholder="Enter Category" [(ngModel)]="this.cat"><br>
+    <input type="text" placeholder="Enter Code"  [(ngModel)]="this.code"><br>
+    <input type="text" placeholder="Enter New Price"  [(ngModel)]="this.nPrice"><br>
+    <input type="radio" name="radio" value="NY" [(ngModel)]="this.rad"><label>NY</label><br>
+    <input type="radio" name="radio" value="OLD" [(ngModel)]="this.rad"><label>OLD</label><br>
+    <input type="radio" name="radio" value="Others" [(ngModel)]="this.rad"><label>Others</label><br>
+
+    <input type="checkbox" name="check" value="Accept" [(ngModel)]="this.acc"><label>I Accept terms and conditions</label>
+
+    <h2>Added Category:{{this.cat}}, Added Code:{{this.code}}, Added New Price:{{this.nPrice}}, Acceptance:{{this.acc}}</h2>
+
+</div>
+

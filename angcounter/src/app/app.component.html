@@ -1,0 +1,18 @@
+<div>
+  <h1>
+    Counter App:{{this.count}}
+  </h1>
+  <button (click)="add()">+1</button>
+  <button (click)="sub()">-1</button>
+  <button (click)="reset()">Reset</button>
+  <hr>
+  <div>
+    <button (click)="show()">{{this.bool?"Hide":"Show"}}</button>
+    <h1 *ngIf="this.bool">Hello</h1>
+  </div>
+  <hr>
+  <div>
+    <p *ngFor="let marks of scores;index as i">
+      <span [ngClass]="getClass(i)">{{marks}}</span></p>
+  </div>
+</div>
